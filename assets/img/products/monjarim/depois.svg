@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700" role="img" aria-label="Imagem depois autorizada">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#2d183d" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="100%" height="100%" rx="28" fill="url(#g)"/>
+  <rect x="32" y="32" width="636" height="636" rx="24" fill="none" stroke="#c4006a" stroke-width="4" stroke-dasharray="14 12" opacity=".45"/>
+  <g filter="url(#s)">
+    <rect x="252" y="140" width="196" height="336" rx="26" fill="#fff" stroke="#e6dce5" stroke-width="4"/>
+    <rect x="266" y="301" width="168" height="112" rx="12" fill="#c4006a" opacity=".88"/>
+    <text x="350" y="364" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#fff" font-weight="800">monjarim</text>
+    <rect x="273" y="105" width="154" height="56" rx="12" fill="#f4f4f4" stroke="#d8d8d8"/>
+  </g>
+  <text x="50%" y="82%" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#2d183d" font-weight="800">Imagem depois autorizada</text>
+  <text x="50%" y="88%" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#6d5b73">Substitua por imagem real</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" role="img" aria-label="Imagem ilustrativa do Monjarim">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff0f6"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="pack" x1="0" x2="1"><stop stop-color="#3d1a4f"/><stop offset="1" stop-color="#c4006a"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3d1a4f" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="760" height="470" rx="38" fill="url(#bg)"/>
+  <circle cx="620" cy="88" r="92" fill="#c4006a" opacity=".08"/>
+  <circle cx="142" cy="376" r="122" fill="#3d1a4f" opacity=".06"/>
+  <g filter="url(#shadow)">
+    <rect x="260" y="76" width="240" height="330" rx="28" fill="url(#pack)"/>
+    <rect x="285" y="104" width="190" height="252" rx="20" fill="#fff" opacity=".94"/>
+    <path d="M328 230c32-96 96-126 136-140-8 54 12 93 58 120-62 2-121 19-194 20Z" fill="#c4006a" opacity=".13"/>
+    <text x="380" y="164" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="900" fill="#3d1a4f">MONJARIM</text>
+    <text x="380" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#c4006a">REFERÊNCIA VISUAL</text>
+    <rect x="318" y="246" width="124" height="36" rx="18" fill="#fff0f6"/>
+    <text x="380" y="270" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800" fill="#3d1a4f">substituir imagem</text>
+    <rect x="325" y="314" width="110" height="10" rx="5" fill="#3d1a4f" opacity=".18"/>
+    <rect x="340" y="334" width="80" height="10" rx="5" fill="#c4006a" opacity=".25"/>
+  </g>
+  <g opacity=".9">
+    <rect x="156" y="188" width="116" height="176" rx="18" fill="#fff" stroke="#ffd4e8" stroke-width="4"/>
+    <text x="214" y="276" text-anchor="middle" font-family="Arial" font-size="22" font-weight="900" fill="#3d1a4f">1x</text>
+    <text x="214" y="304" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#c4006a">frasco</text>
+    <rect x="488" y="188" width="116" height="176" rx="18" fill="#fff" stroke="#ffd4e8" stroke-width="4"/>
+    <text x="546" y="276" text-anchor="middle" font-family="Arial" font-size="22" font-weight="900" fill="#3d1a4f">KIT</text>
+    <text x="546" y="304" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#c4006a">opções</text>
+  </g>
+</svg>
