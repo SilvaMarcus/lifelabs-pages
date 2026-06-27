@@ -1,11 +1,8 @@
-/* Fonte profissional */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 
-/* Inicio Popup */
 /* Fonte profissional */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 
 *{
     margin:0;
@@ -14,6 +11,7 @@
     font-family:'Inter',sans-serif;
 }
 
+/* Inicio Popup */
 .cookie-overlay{
     position:fixed;
     inset:0;
@@ -3678,10 +3676,10 @@
 	}
 }
 
-@media (prefers-reduced-motion:no-preference) {
-	.ep-native-1byhebc {
-		scroll-
-	}
+@media (prefers-reduced-motion: no-preference) {
+    .ep-native-1byhebc {
+        scroll-behavior: smooth;
+    }
 }
 
 .ep-native-1byhebc .e-con {
@@ -4658,7 +4656,6 @@
 	--widgets-spacing-column: 20px;
 }
 
-	{}
 
 h1.entry-title {
 	display: var(--page-title-display);
@@ -5174,16 +5171,20 @@ h1.entry-title {
 	-webkit-tap-highlight-color: transparent;
 }
 
-.ep-native-1byhebc <br />@media (max-width:600px) {
-	<br />.mj-ba-slider {
+.ep-native-1byhebc {
+	
+}
+
+@media (max-width:600px) {
+	.mj-ba-slider {
 		max-width: 100% !important;
 		border-radius: 10px !important;
 	}
 
-	<br />
+	
 }
 
-<br />@keyframes mj-pop {
+@keyframes mj-pop {
 	from {
 		opacity: 0;
 		transform: scale(0.85)
