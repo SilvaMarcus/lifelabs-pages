@@ -1,9 +1,0 @@
-.ep-page { width: 100%; }
-
-.ep-section { isolation: isolate; }
-
-.ep-btn,
-.ep-footer-link { cursor: pointer; }
-
-.ep-panel:empty,
-.ep-card:empty { display: none; }
