@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="LifeLabs">
+  <rect width="128" height="128" rx="18" fill="#5E66D9"/>
+  <path d="M51 16h42c4 0 7 3 7 7s-3 7-7 7H82v27l27 42c7 11-1 25-14 25H33c-13 0-21-14-14-25l27-42V30H35c-4 0-7-3-7-7s3-7 7-7h16Zm8 14v30L30 105c-2 3 0 7 4 7h60c4 0 6-4 4-7L69 60V30H59Z" fill="#fff"/>
+  <path d="M36 101h56L75 74c-14 6-25 19-39 27Z" fill="#fff" opacity=".96"/>
+</svg>
