@@ -861,7 +861,7 @@
           max-width: 100%;
           height: 40px;
           box-sizing: border-box;
-          flex: 1 1 360px;
+          flex: 1 1 324px;
           align-items: center;
           padding: 0 14px;
           border: 0;
@@ -3587,6 +3587,15 @@
 .ep-native-xj5ote .lifelabs-store .page_siteHeader__KZsJ9 {
   background: var(--lifelabs-primary) !important;
   box-shadow: none;
+}
+
+.ep-native-xj5ote .lifelabs-store .lifelabs-header-tagline {
+  color: rgba(255, 255, 255, .82);
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .035em;
+  line-height: 1.25;
+  text-transform: uppercase;
 }
 
 .ep-native-xj5ote .lifelabs-hero {
