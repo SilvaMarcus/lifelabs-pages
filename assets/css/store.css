@@ -3504,6 +3504,25 @@
   justify-content: start;
 }
 
+.ep-native-xj5ote .lifelabs-product-card .page_storeMedia__E1Nu9 {
+  background:
+    radial-gradient(circle at 50% 52%, rgba(255, 255, 255, .96) 0, rgba(255, 255, 255, .86) 42%, rgba(223, 244, 239, .95) 100%) !important;
+}
+
+.ep-native-xj5ote .lifelabs-product-card .page_storeImageFrame__tyb7e {
+  overflow: hidden;
+  padding: 0;
+}
+
+.ep-native-xj5ote .lifelabs-product-card .page_storeImageFrame__tyb7e img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transform: scale(1.45);
+  transform-origin: center;
+}
+
 .ep-native-xj5ote .lifelabs-store .page_categoryPill__6e0Jv {
   gap: 10px;
 }
