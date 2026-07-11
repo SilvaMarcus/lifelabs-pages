@@ -7,8 +7,8 @@ window.LifeLabsOffers = [
     description: 'Auxilia no emagrecimento, controle do apetite e acelera o metabolismo.',
     badge: 'Top',
     search: 'monjarim emagrecimento controle de peso suplemento bem-estar',
-    href: 'https://ev.braip.com/ref?pv=prodq26k&af=afi4v131yd',
-    image: 'https://saude-beleza.site/monjarim-clone/wp-content/uploads/2026/02/Design-sem-nome-4.png'
+    href: '/monjarim',
+    image: 'ofertas_PP/emagrecimento/monjarim/assets/img/imagens/productimage.png'
   },
   {
     name: 'Trans Resveratrol Gota',

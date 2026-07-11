@@ -27,7 +27,7 @@
   function getOfferImage(offer) {
     const directImage = cleanText(offer.image || offer.imageUrl);
     if (directImage) return directImage;
-    return 'ofertas/' + cleanText(offer.category) + '/' + cleanText(offer.slug) + '/assets/img/imagens/productimage.png';
+    return 'ofertas_PP/' + cleanText(offer.category) + '/' + cleanText(offer.slug) + '/assets/img/imagens/productimage.png';
   }
 
   function categoryButton(category, className, pressedAttr) {

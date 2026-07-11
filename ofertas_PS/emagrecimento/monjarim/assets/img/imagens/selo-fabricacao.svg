@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="CONTROLE">
+      <rect width="320" height="180" rx="22" fill="#fff"/>
+      <rect x="18" y="18" width="284" height="144" rx="18" fill="#fff0f6" stroke="#ffd4e8"/>
+      <circle cx="160" cy="76" r="38" fill="#c4006a" opacity=".13"/>
+      <text x="160" y="88" text-anchor="middle" font-family="Arial" font-size="34" font-weight="900" fill="#c4006a">⚙</text>
+      <text x="160" y="132" text-anchor="middle" font-family="Arial" font-size="18" font-weight="900" fill="#3d1a4f">CONTROLE</text>
+    </svg>

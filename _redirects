@@ -1,7 +1,20 @@
-/Monjarim/ /monjarim/ 301
-/Monjarim /monjarim/ 301
-/monjarim /monjarim/ 301
+/Monjarim/ /monjarim 301
+/Monjarim /monjarim 301
+/monjarim/ /monjarim 301
+/lifelabs/monjarim /monjarim 301
+/lifelabs/monjarim/ /monjarim 301
+/lifelabs/monjarim/* /monjarim 301
+/monjarim-presell/ /emagrecimento/monjarim/ 301
+/monjarim-presell/* /emagrecimento/monjarim/:splat 301
+/lifelabs/emagrecimento/monjarim /emagrecimento/monjarim/ 301
+/lifelabs/emagrecimento/monjarim/ /emagrecimento/monjarim/ 301
+/lifelabs/emagrecimento/monjarim/* /emagrecimento/monjarim/:splat 301
+/emagrecimento/monjarim /emagrecimento/monjarim/ 301
 
-# Public product URL -> internal presell page.
-/monjarim/ /ofertas/emagrecimento/monjarim/ 200
-/monjarim/* /ofertas/emagrecimento/monjarim/:splat 200
+# Public product URL -> owned product page.
+/monjarim /ofertas_PP/emagrecimento/monjarim/ 200
+/monjarim/* /ofertas_PP/emagrecimento/monjarim/:splat 200
+
+# Presell version by category.
+/emagrecimento/monjarim/ /ofertas_PS/emagrecimento/monjarim/ 200
+/emagrecimento/monjarim/* /ofertas_PS/emagrecimento/monjarim/:splat 200
