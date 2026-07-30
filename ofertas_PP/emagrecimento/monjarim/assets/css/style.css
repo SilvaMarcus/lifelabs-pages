@@ -237,13 +237,16 @@ h1 {
 }
 
 .trust-list li {
-  border: 1px solid rgba(53, 19, 74, 0.1);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.72);
   color: var(--purple-soft);
-  padding: 9px 13px;
-  font-size: 0.82rem;
-  font-weight: 700;
+  padding: 0;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.trust-list li::before {
+  content: "✓";
+  margin-right: 7px;
+  color: var(--pink);
 }
 
 .hero-product {
@@ -801,10 +804,6 @@ h1 {
 
   .trust-list li {
     flex: 1 1 100%;
-  }
-
-  .trust-list {
-    display: none;
   }
 
   .benefits,
