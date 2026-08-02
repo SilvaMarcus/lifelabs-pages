@@ -1,5 +1,5 @@
 :root {
-  --pink: #e83e8c;
+  --pink: #d42673;
   --pink-deep: #c92774;
   --purple: #35134a;
   --purple-soft: #56306c;
@@ -26,7 +26,7 @@ body {
   min-width: 320px;
   background: var(--paper);
   color: var(--ink);
-  font-family: Poppins, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -247,6 +247,13 @@ h1 {
   content: "✓";
   margin-right: 7px;
   color: var(--pink);
+}
+
+.hero-disclaimer {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
 }
 
 .hero-product {
@@ -567,6 +574,14 @@ h1 {
   text-transform: uppercase;
 }
 
+.price-total {
+  display: block;
+  margin: -16px 0 22px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
 .kit-card .btn {
   width: 100%;
   margin-top: auto;
@@ -695,6 +710,17 @@ h1 {
   color: #8ff0bd;
 }
 
+.footer-legal {
+  grid-column: 1 / -1;
+  padding-top: 2px;
+}
+
+.footer-legal p {
+  max-width: 920px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.78rem;
+}
+
 .whatsapp-float {
   position: fixed;
   right: clamp(18px, 4vw, 34px);
@@ -759,6 +785,22 @@ h1 {
 
   to {
     transform: translateX(-20%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .hero-product img,
+  .ticker-track {
+    animation: none;
+  }
+
+  .btn,
+  .whatsapp-float {
+    transition: none;
   }
 }
 
