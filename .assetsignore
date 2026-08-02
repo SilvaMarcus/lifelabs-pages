@@ -1,0 +1,7 @@
+.git/
+.agents/
+.codex/
+.wrangler/
+node_modules/
+package.json
+package-lock.json

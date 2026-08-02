@@ -485,7 +485,7 @@ h1 {
 
 .delivery-grid {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(300px, 1fr);
+  grid-template-columns: minmax(0, 0.8fr) minmax(330px, 1.1fr);
   gap: 44px;
   align-items: center;
 }
@@ -508,11 +508,12 @@ h1 {
 
 .delivery-gallery img {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 4 / 5;
   border: 1px solid rgba(53, 19, 74, 0.08);
   border-radius: 14px;
   background: #fff;
   object-fit: cover;
+  object-position: center;
   box-shadow: 0 10px 28px rgba(53, 19, 74, 0.08);
 }
 
@@ -612,6 +613,18 @@ h1 {
   line-height: 1.7;
 }
 
+.faq-support-link {
+  color: var(--pink-deep);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.faq-support-link:hover {
+  color: var(--purple);
+}
+
 .site-footer {
   background: var(--purple);
   color: #fff;
@@ -619,22 +632,67 @@ h1 {
 }
 
 .footer-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(240px, 0.8fr);
+  gap: 24px 48px;
+  align-items: start;
 }
 
 .footer-grid strong {
+  display: block;
   font-size: 1.25rem;
 }
 
 .footer-grid p {
   max-width: 720px;
-  margin: 0;
+  margin: 8px 0 0;
   color: rgba(255, 255, 255, 0.76);
   line-height: 1.6;
+}
+
+.footer-support {
+  display: grid;
+  gap: 7px;
+}
+
+.footer-support strong {
+  margin-bottom: 2px;
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.footer-support a {
+  width: fit-content;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.footer-support a:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-grid .footer-status {
+  display: flex;
+  grid-column: 1 / -1;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  max-width: none;
+  margin: 0;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.footer-status span::before {
+  content: "\2713";
+  margin-right: 6px;
+  color: #8ff0bd;
 }
 
 .whatsapp-float {
@@ -753,12 +811,23 @@ h1 {
 
   .delivery-gallery {
     grid-template-columns: repeat(5, minmax(62px, 1fr));
+    width: calc(100% + 28px);
+    margin-left: -14px;
     overflow-x: auto;
     padding-bottom: 4px;
   }
 
   .kit-card.featured {
     transform: none;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .footer-grid .footer-status {
+    grid-column: auto;
   }
 }
 

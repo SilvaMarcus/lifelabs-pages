@@ -2,20 +2,46 @@
 <html lang="pt-BR">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18364848148"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'AW-18364848148');
+  </script>
+  <!-- Event snippet for checkout button click conversion -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18364848148/-WhvCPXtsdocEJSwhbVE',
+        'value': 1.0,
+        'currency': 'BRL',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Monjarim | Produto oficial</title>
   <meta name="description"
     content="Monjarim e uma pagina propria de produto com beneficios, prova social, video, kits e compra segura.">
-  <link rel="canonical" href="/monjarim">
+  <meta name="google-ads-account" content="AW-18364848148">
+  <link rel="canonical" href="https://lifelabs.com.br/monjarim">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
     rel="stylesheet">
   <link rel="icon" href="/monjarim/assets/img/favicon.ico" type="image/x-icon">
   <link rel="alternate icon" href="/monjarim/assets/img/favicon.png" type="image/png">
-  <link rel="preload" href="/monjarim/assets/img/imagens/productimage.png" as="image">
-  <link rel="stylesheet" href="/monjarim/assets/css/style.css?v=20260707-2">
+  <link rel="preload" href="/monjarim/assets/img/imagens/productimage.png" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="/monjarim/assets/css/style.css?v=20260802-3">
   <script>
     (function () {
       if (window.location.protocol !== "file:") return;
@@ -76,7 +102,7 @@
       <div class="hero-bg" aria-hidden="true"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Formula natural | Produto original</p>
+          <p class="eyebrow">Distribuidora Oficial | Produto original</p>
           <h1>Descubra o poder do Monjarim na sua rotina.</h1>
           <p class="hero-lead">
             Capsulas de uso diario que promovem saciedade e aceleram metabolismo.
@@ -203,6 +229,7 @@
           <article class="social-card">
             <div class="social-media social-square video-wrap">
               <video src="/monjarim/assets/video/testimonial-video.mp4" controls playsinline preload="metadata"
+                data-enable-seeking
                 aria-label="Depoimento em video de cliente"></video>
             </div>
             <div class="social-body">
@@ -252,7 +279,7 @@
 
           <div class="delivery-gallery" aria-label="Pedidos Monjarim entregues">
             <img src="/monjarim/assets/img/imagens/delivery-1.jpeg" alt="Pedido Monjarim entregue pelos Correios" loading="lazy">
-            <img src="/monjarim/assets/img/imagens/delivery-2.jpeg" alt="Cliente com frascos Monjarim recebidos" loading="lazy">
+            <img src="/monjarim/assets/img/imagens/delivery-factory.jpeg" alt="Frascos Monjarim durante a producao" loading="lazy">
             <img src="/monjarim/assets/img/imagens/delivery-3.jpeg" alt="Caixa de entrega com Monjarim" loading="lazy">
             <img src="/monjarim/assets/img/imagens/delivery-4.jpeg" alt="Frascos Monjarim em pedido recebido" loading="lazy">
             <img src="/monjarim/assets/img/imagens/delivery-5.jpeg" alt="Entrega Monjarim chegando ao cliente" loading="lazy">
@@ -276,7 +303,8 @@
             <p>O primeiro passo para sentir como o Monjarim se encaixa no seu dia a dia.</p>
             <strong>12x de R$ 20,37</strong>
             <a class="btn btn-secondary" href="https://ev.braip.com/ref?pl=pla1qrk8&ck=chew4mj1&af=afi4v131yd"
-              target="_blank" rel="nofollow sponsored noopener noreferrer">Comprar 1 frasco</a>
+              target="_blank" rel="nofollow sponsored noopener noreferrer"
+              onclick="gtag_report_conversion();">Comprar 1 frasco</a>
           </article>
 
           <article class="kit-card featured">
@@ -286,7 +314,8 @@
             <p>Periodo ideal para criar constancia e acompanhar a evolucao com mais tranquilidade.</p>
             <strong>12x de R$ 30,72</strong>
             <a class="btn btn-primary" href="https://ev.braip.com/ref?pl=plarzq9w&ck=chew4mj1&af=afi4v131yd"
-              target="_blank" rel="nofollow sponsored noopener noreferrer">Comprar 3 frascos</a>
+              target="_blank" rel="nofollow sponsored noopener noreferrer"
+              onclick="gtag_report_conversion();">Comprar 3 frascos</a>
           </article>
 
           <article class="kit-card">
@@ -295,7 +324,8 @@
             <p>Rotina completa para quem quer manter o uso sem interrupcao.</p>
             <strong>12x de R$ 41,06</strong>
             <a class="btn btn-secondary" href="https://ev.braip.com/ref?pl=plaooq9j&ck=chew4mj1&af=afi4v131yd"
-              target="_blank" rel="nofollow sponsored noopener noreferrer">Comprar 5 frascos</a>
+              target="_blank" rel="nofollow sponsored noopener noreferrer"
+              onclick="gtag_report_conversion();">Comprar 5 frascos</a>
           </article>
 
           <article class="kit-card">
@@ -304,7 +334,8 @@
             <p>Estoque completo para manter a rotina por mais tempo com o melhor aproveitamento.</p>
             <strong>12 x de R$ 72,09</strong>
             <a class="btn btn-secondary" href="https://ev.braip.com/ref?pl=plak8rl2&ck=chew4mj1&af=afi4v131yd"
-              target="_blank" rel="nofollow sponsored noopener noreferrer">Comprar 10 frascos</a>
+              target="_blank" rel="nofollow sponsored noopener noreferrer"
+              onclick="gtag_report_conversion();">Comprar 10 frascos</a>
           </article>
         </div>
 
@@ -322,7 +353,7 @@
           <p class="eyebrow">Perguntas frequentes</p>
           <h2>D&uacute;vidas comuns.</h2>
         </div>
-        <details open>
+        <details>
           <summary>O Monjarim substitui alimentacao ou treino?</summary>
           <p>Nao. Ele e um suporte para rotina, usado junto de alimentacao equilibrada e acompanhamento profissional quando necessario.</p>
         </details>
@@ -332,7 +363,12 @@
         </details>
         <details>
           <summary>A compra e segura?</summary>
-          <p>Sim. Os botoes levam para o checkout oficial, onde aparecem as condicoes finais de pagamento, envio e garantia.</p>
+          <p>
+            Sim. Os botoes levam para o checkout oficial, onde aparecem as condicoes finais de pagamento, envio e garantia.
+            Qualquer duvida, nossa equipe esta disponivel. <a class="faq-support-link"
+              href="https://wa.me/5511960422539?text=Ola%2C%20tenho%20uma%20duvida%20sobre%20a%20compra%20do%20Monjarim."
+              target="_blank" rel="noopener noreferrer">Tirar duvida</a>.
+          </p>
         </details>
       </div>
     </section>
@@ -340,8 +376,21 @@
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <strong>Monjarim</strong>
-      <p>Produto vendido somente pelos canais oficiais. Consulte sempre as condicoes no checkout antes de finalizar.</p>
+      <div class="footer-about">
+        <strong>Monjarim</strong>
+        <p>Produto vendido somente pelos canais oficiais. Consulte sempre as condicoes no checkout antes de finalizar.</p>
+      </div>
+      <div class="footer-support" aria-label="Canais de suporte">
+        <strong>Suporte LifeLabs</strong>
+        <a href="mailto:suporte@lifelabs.com.br">suporte@lifelabs.com.br</a>
+        <a href="https://wa.me/5511960422539?text=Ola%2C%20preciso%20de%20suporte%20sobre%20o%20Monjarim."
+          target="_blank" rel="noopener noreferrer">WhatsApp: (11) 96042-2539</a>
+      </div>
+      <div class="footer-status" role="list" aria-label="Informacoes de seguranca">
+        <span role="listitem">Conexao segura</span>
+        <span role="listitem">Checkout oficial</span>
+        <span role="listitem">Atendimento LifeLabs</span>
+      </div>
     </div>
   </footer>
 
@@ -356,6 +405,64 @@
     </span>
     <span class="whatsapp-float__text">Tirar duvida</span>
   </a>
+  <script>
+    (function () {
+      var video = document.querySelector("video[data-enable-seeking]");
+      if (!video || !window.fetch || !window.URL || !window.IntersectionObserver) return;
+
+      var source = video.getAttribute("src");
+      var loadingPromise;
+      var objectUrl;
+
+      var enableSeeking = function () {
+        if (loadingPromise) return loadingPromise;
+
+        video.setAttribute("aria-busy", "true");
+        loadingPromise = fetch(source, { credentials: "same-origin" })
+          .then(function (response) {
+            if (!response.ok) throw new Error("Nao foi possivel carregar o video completo.");
+            return response.blob();
+          })
+          .then(function (blob) {
+            var resumeAt = video.currentTime || 0;
+            var shouldResume = !video.paused;
+
+            objectUrl = URL.createObjectURL(blob);
+            video.src = objectUrl;
+            video.load();
+
+            return new Promise(function (resolve) {
+              video.addEventListener("loadedmetadata", function () {
+                video.currentTime = Math.min(resumeAt, video.duration || resumeAt);
+                video.removeAttribute("aria-busy");
+                video.setAttribute("data-seeking-ready", "true");
+                if (shouldResume) video.play().catch(function () {});
+                resolve();
+              }, { once: true });
+            });
+          })
+          .catch(function () {
+            video.removeAttribute("aria-busy");
+            loadingPromise = null;
+          });
+
+        return loadingPromise;
+      };
+
+      var observer = new IntersectionObserver(function (entries) {
+        if (!entries[0].isIntersecting) return;
+        observer.disconnect();
+        enableSeeking();
+      }, { rootMargin: "600px 0px" });
+
+      observer.observe(video);
+      video.addEventListener("play", enableSeeking, { once: true });
+      video.addEventListener("pointerdown", enableSeeking, { once: true });
+      window.addEventListener("pagehide", function () {
+        if (objectUrl) URL.revokeObjectURL(objectUrl);
+      }, { once: true });
+    })();
+  </script>
 </body>
 
 </html>
