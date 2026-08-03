@@ -691,23 +691,44 @@ h1 {
   text-underline-offset: 3px;
 }
 
-.footer-grid .footer-status {
-  display: flex;
+.footer-trust {
+  display: grid;
   grid-column: 1 / -1;
-  flex-wrap: wrap;
-  gap: 8px 18px;
-  max-width: none;
-  margin: 0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
   padding-top: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.14);
-  font-size: 0.8rem;
-  font-weight: 700;
 }
 
-.footer-status span::before {
-  content: "\2713";
-  margin-right: 6px;
-  color: #8ff0bd;
+.footer-trust-card {
+  display: flex;
+  min-height: 112px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.07);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.footer-trust-card strong {
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.footer-trust-card img {
+  display: block;
+  width: min(100%, 230px);
+  height: 58px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-sizing: border-box;
+  object-fit: contain;
 }
 
 .footer-legal {
@@ -719,6 +740,32 @@ h1 {
   max-width: 920px;
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.78rem;
+}
+
+.footer-official-sale {
+  display: flex;
+  max-width: 920px;
+  margin-top: 18px;
+  padding: 13px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 14px;
+  background: rgba(31, 15, 57, 0.26);
+  align-items: center;
+  gap: 18px;
+}
+
+.footer-official-sale img {
+  width: min(230px, 38%);
+  height: auto;
+  padding: 7px 9px;
+  border-radius: 9px;
+  background: #fff;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+}
+
+.footer-official-sale p {
+  margin: 0;
 }
 
 .whatsapp-float {
@@ -868,8 +915,21 @@ h1 {
     gap: 22px;
   }
 
-  .footer-grid .footer-status {
-    grid-column: auto;
+  .footer-trust {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-trust-card {
+    min-height: 104px;
+  }
+
+  .footer-official-sale {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-official-sale img {
+    width: min(260px, 100%);
   }
 }
 
